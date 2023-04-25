@@ -51,7 +51,7 @@ export default function App () {
           component = { Catalogo } 
           options={{
             tabBarIcon: ({ color }) => (
-              <Entypo name="catologue" color={ color } size={ 20 } />
+              <FontAwesome5 name="wine-bottle" color={ color } size={ 20 } />
             ),
           }}
         />         
@@ -60,7 +60,7 @@ export default function App () {
           component = { Contato } 
           options={{
             tabBarIcon: ({ color }) => (
-              <Entypo name="number" color={ color } size={ 20 } />
+              <FontAwesome5 name="address-book" color={ color } size={ 20 } />
             ),
           }}
         />              

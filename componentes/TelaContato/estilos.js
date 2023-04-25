@@ -7,13 +7,24 @@ const estilos = StyleSheet.create({
     backgroundColor: '#fff'
   },
   titulo: {
-   
+    fontSize: 22,
+    marginTop: '10%',
+    marginBottom: '10%',
+    marginLeft: '10%',
+    fontWeight: 'bold'
   },
   contatoLista: {
-    
+    alignContent: 'center',
+    alignItems: 'center'
   },
   contatoBox: {
-    
+    border: 'solid',
+    borderWidth: 1,
+    borderRadius: 15,
+    height:'30%',
+    width: '80%',
+    marginBottom: '5%',
+    alignItems: 'center'
   },
   contatoTitulo: {
    
